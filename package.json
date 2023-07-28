@@ -1,0 +1,33 @@
+{
+  "name": "couch-potato",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "devNetlify": "netlify dev"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^2.0.0",
+    "@stripe/react-stripe-js": "^1.14.2",
+    "@stripe/stripe-js": "^1.42.1",
+    "airtable-node": "^0.1.20",
+    "axios": "^1.1.3",
+    "dotenv": "^16.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-router-dom": "^5.2.0",
+    "stripe": "^10.16.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "netlify-cli": "^12.1.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.2.0"
+  }
+}

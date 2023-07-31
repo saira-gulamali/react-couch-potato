@@ -47,7 +47,6 @@ const products_reducer = (state, action) => {
         single_product_error: true,
       };
     case GET_SINGLE_PRODUCT_SUCCESS:
-      console.log(action.payload);
       return {
         ...state,
         single_product: action.payload,

@@ -12,7 +12,6 @@ import {
 const filter_reducer = (state, action) => {
   if (action.type === LOAD_PRODUCTS) {
     if (action.payload.length < 1) {
-      console.log("empty load products");
       return { ...state };
     }
     let maxPrice = action.payload.map((p) => p.price);
@@ -86,8 +85,6 @@ const filter_reducer = (state, action) => {
   if (action.type === FILTER_PRODUCTS) {
     const { all_products, filtered_products } = state;
     if (all_products.length < 1) {
-      console.log("all products was empty.could not filter products");
-
       return { ...state };
     }
 

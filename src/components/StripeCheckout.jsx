@@ -86,8 +86,8 @@ const CheckoutForm = () => {
       setError(null);
       setProcessing(false);
       setSucceeded(true);
+      clearCart();
       setTimeout(() => {
-        clearCart();
         // react router 5
         // history.push("/");
         navigate("/");

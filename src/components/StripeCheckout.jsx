@@ -136,7 +136,6 @@ const CheckoutForm = () => {
           Refresh the page to pay again
         </p>
       </form>
-      hello from Stripe Checkout{" "}
     </div>
   );
 };
